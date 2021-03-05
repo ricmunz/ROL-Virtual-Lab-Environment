@@ -9,3 +9,4 @@ ${cmd2}a $cmd_rmv
 ${cmd2}b $cmd_rmv
 
 echo ...Removed formatting
+exit
