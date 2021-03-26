@@ -19,7 +19,7 @@ ${cmd2}b ${cmd}serverb.sh
 echo Validating changes...
 echo "Expected  Actual"
 #Need to have this eval here but not sure why not for remote
-printf '  1;32m   '; eval $valid
-printf '  1;34m   '; ${cmd2}a $valid
-printf '  1;33m   '; ${cmd2}b $valid
+printf '   1;32m  '; eval $valid
+printf '   1;34m  '; ${cmd2}a $valid
+printf '   1;33m  '; ${cmd2}b $valid
 }
